@@ -6,6 +6,7 @@
     <h1> Hide your children </h1>
     <br />
     Go here for song: https://www.youtube.com/watch?v=OiVA6jRGJWI
+    <div id="myDiv"></div>
     <p>
       "You're my little walrus", "WITH A GREAT BIG BOW", "with a great big bow, on your walrus head". "Your my little walrus", "WITH A GREAT BIG SMILE", "with a great big smile on your walrus face, and as we sit by the pool and dream of stars, and the future, we will sing", "WE WILL SING", "we will sing, this happy walrus song"
     </p>
@@ -25,6 +26,8 @@
   var answer2 = document.getElementById("myselect");
     alert(answer.value);
     alert(answer2.value);
+  var myDiv = document.getElementById("myDiv");
+    myDiv.innerHTML = answer.value + "!!!!!";
   }  
     </script>  
     
